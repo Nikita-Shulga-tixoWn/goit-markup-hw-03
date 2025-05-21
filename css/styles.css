@@ -169,6 +169,8 @@ section {
     min-width: 169px;
     border-radius: 4px;
     padding: 16px 32px;
+    border: none;
+    height: 56px;
 }
 
 .hero-button:hover,
@@ -195,6 +197,10 @@ section {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
+}
+
+.features-title {
+    margin-bottom: 8px;
 }
 
 .features-title,
@@ -344,6 +350,7 @@ section {
 }
 
 .footer .logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -352,7 +359,6 @@ section {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .footer .logo-accent {
